@@ -6,8 +6,8 @@ public class To1 {
         int aptitudeHoursPerDay = 1;
         int numberOfDays = 5;
         int weeklyJavaHours = javaHoursPerDay * numberOfDays;
-        int weeklyAptitudeHour = aptitudeHoursPerDay * numberOfDays;
-        int totalPreparationHours = weeklyJavaHours * weeklyAptitudeHours;
+        int weeklyAptitudeHours = aptitudeHoursPerDay * numberOfDays;
+        int totalPreparationHours = weeklyJavaHours + weeklyAptitudeHours;
         System.out.println("Java: " + weeklyJavaHours);
         System.out.println("Aptitude: " + weeklyAptitudeHours);
         System.out.println("Total: " + totalPreparationHours);
