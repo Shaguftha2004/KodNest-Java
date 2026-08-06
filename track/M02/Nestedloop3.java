@@ -1,5 +1,5 @@
 
-public class Nestedloop2 {
+public class Nestedloop3 {
 
     public static void main(String[] args) {
         int i = 1;
