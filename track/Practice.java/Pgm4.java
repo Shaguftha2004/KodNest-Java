@@ -14,14 +14,17 @@ public class Pgm4 {
                 roundName = "Technical Round";
                 break;
             case 3:
-                roundNmae = "HR Round";
+                roundName = "HR Round";
                 break;
             case 4:
             case 5:
                 roundName = "Final Review";
-            default
-
+                break;
+            default:
+                roundName = "Invalid Round";
         }
-
+        String Status = (attemptsUsed < maxAttempts) ? "Attempt Available" : "Attempt Limit Reached";
+        System.out.println("Current Round: Final Review");
+        System.out.println("Attempt Status: Ateempt Available");
     }
 }
